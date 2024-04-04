@@ -159,7 +159,7 @@
         border: none;
         cursor: pointer;
       }
-      .hover-rotate-button {
+       .hover-rotate-button {
         position: absolute;
         top: 20px;
         right: 20px;
@@ -168,12 +168,9 @@
         border: none;
         font-size: 24px;
         cursor: pointer;
-        transition: transform 1.5s, top 0.5s, right 0.5s; 
+        transition: transform 0.5s;
       }
       
       .hover-rotate-button:hover {
-        transform: rotate(1080deg); 
-        top: 10px;
-        right: 10px;
+        transform: rotate(180deg);  
       }
-      
